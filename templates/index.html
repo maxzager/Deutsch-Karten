@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Flashcards Practice</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>German Flashcards Practice</h1>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="all">All Categories</option>
+                </select>
+            </div>
+            
+            <div class="control-group">
+                <label>Number of Cards:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="cardCount" value="10" checked> 10</label>
+                    <label><input type="radio" name="cardCount" value="30"> 30</label>
+                    <label><input type="radio" name="cardCount" value="50"> 50</label>
+                </div>
+            </div>
+            
+            <button id="startBtn" class="btn btn-primary">Start Practice</button>
+        </div>
+        
+        <div id="gameArea" class="game-area hidden">
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="label">Timer:</span>
+                    <span id="timer">00:00</span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">Progress:</span>
+                    <span id="progress">0/0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">Score:</span>
+                    <span id="score">0</span>
+                </div>
+            </div>
+            
+            <div class="card-container">
+                <div class="card" id="flashcard">
+                    <div class="card-face card-front">
+                        <p id="frontText"></p>
+                    </div>
+                    <div class="card-face card-back">
+                        <p id="backText"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="game-controls">
+                <button id="knowBtn" class="btn btn-success">I knew it! ✓</button>
+                <button id="dontKnowBtn" class="btn btn-danger">I didn't know ✗</button>
+                <button id="nextBtn" class="btn btn-secondary hidden">Next Card →</button>
+            </div>
+            
+            <button id="endBtn" class="btn btn-warning">End Practice</button>
+        </div>
+        
+        <div id="resultsArea" class="results-area hidden">
+            <h2>Practice Complete!</h2>
+            <div class="result-stats">
+                <p>Total Time: <span id="totalTime"></span></p>
+                <p>Cards Practiced: <span id="totalCards"></span></p>
+                <p>Correct Answers: <span id="correctAnswers"></span></p>
+                <p>Accuracy: <span id="accuracy"></span>%</p>
+            </div>
+            <button id="restartBtn" class="btn btn-primary">Practice Again</button>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2025 [Zager Max] | Educational purpose only - Answers may contain errors</p>
+    </footer>
+    
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
