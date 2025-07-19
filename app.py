@@ -12,9 +12,10 @@ def load_cards():
         reader = csv.DictReader(file)
         for row in reader:
             cards.append({
-                'category': row['Category'],
-                'front': row['Front'],
-                'back': row['Back']
+                'category': row['category'],
+                'front': row['front'],
+                'back': row['back'],
+                'english': row['english'] if 'english' in row else ''
             })
     return cards
 

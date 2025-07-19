@@ -1,56 +1,356 @@
-Category,Front,Back
-Articles,Haus,das Haus
-Articles,Frau,die Frau
-Articles,Mann,der Mann
-Articles,Kind,das Kind
-Articles,Auto,das Auto
-Articles,Schule,die Schule
-Articles,Buch,das Buch
-Articles,Tisch,der Tisch
-Articles,Stuhl,der Stuhl
-Articles,Fenster,das Fenster
-Articles,Tür,die Tür
-Articles,Wasser,das Wasser
-Articles,Brot,das Brot
-Articles,Milch,die Milch
-Articles,Apfel,der Apfel
-Articles,Stadt,die Stadt
-Articles,Land,das Land
-Articles,Meer,das Meer
-Articles,Berg,der Berg
-Articles,Fluss,der Fluss
-Verbs,gehen,to go
-Verbs,kommen,to come
-Verbs,sehen,to see
-Verbs,essen,to eat
-Verbs,trinken,to drink
-Verbs,schlafen,to sleep
-Verbs,arbeiten,to work
-Verbs,lesen,to read
-Verbs,schreiben,to write
-Verbs,sprechen,to speak
-Verbs,hören,to hear
-Verbs,kaufen,to buy
-Verbs,spielen,to play
-Verbs,lernen,to learn
-Verbs,fahren,to drive
-Numbers,eins,one
-Numbers,zwei,two
-Numbers,drei,three
-Numbers,vier,four
-Numbers,fünf,five
-Numbers,sechs,six
-Numbers,sieben,seven
-Numbers,acht,eight
-Numbers,neun,nine
-Numbers,zehn,ten
-Common Phrases,Guten Morgen,Good morning
-Common Phrases,Guten Tag,Good day
-Common Phrases,Guten Abend,Good evening
-Common Phrases,Auf Wiedersehen,Goodbye
-Common Phrases,Danke,Thank you
-Common Phrases,Bitte,Please/You're welcome
-Common Phrases,Entschuldigung,Excuse me
-Common Phrases,Wie geht's?,How are you?
-Common Phrases,Ich verstehe nicht,I don't understand
-Common Phrases,Sprechen Sie Englisch?,Do you speak English?
+category,front,back,english
+Verbformen,gehen,ging / ist gegangen,to go
+Verbformen,sehen,sah / hat gesehen,to see
+Verbformen,kommen,kam / ist gekommen,to come
+Verbformen,finden,fand / hat gefunden,to find
+Verbformen,nehmen,nahm / hat genommen,to take
+Verbformen,geben,gab / hat gegeben,to give
+Verbformen,essen,aß / hat gegessen,to eat
+Verbformen,trinken,trank / hat getrunken,to drink
+Verbformen,schreiben,schrieb / hat geschrieben,to write
+Verbformen,lesen,las / hat gelesen,to read
+Verbformen,bleiben,blieb / ist geblieben,to stay
+Verbformen,laufen,lief / ist gelaufen,to run
+Verbformen,fahren,fuhr / ist gefahren,to drive/go (by vehicle)
+Verbformen,sprechen,sprach / hat gesprochen,to speak
+Verbformen,treffen,traf / hat getroffen,to meet
+Verbformen,denken,dachte / hat gedacht,to think
+Verbformen,wissen,wusste / hat gewusst,to know (a fact)
+Verbformen,kennen,kannte / hat gekannt,to know (a person/place)
+Verbformen,bringen,brachte / hat gebracht,to bring
+Verbformen,beginnen,begann / hat begonnen,to begin
+Verbformen,arbeiten,arbeitete / hat gearbeitet,to work
+Verbformen,leben,lebte / hat gelebt,to live
+Verbformen,lernen,lernte / hat gelernt,to learn
+Verbformen,spielen,spielte / hat gespielt,to play
+Verbformen,fragen,fragte / hat gefragt,to ask
+Verbformen,antworten,antwortete / hat geantwortet,to answer
+Verbformen,machen,machte / hat gemacht,"to do, to make"
+Verbformen,kaufen,kaufte / hat gekauft,to buy
+Verbformen,verkaufen,verkaufte / hat verkauft,to sell
+Verbformen,erklären,erklärte / hat erklärt,to explain
+Verbformen,besuchen,besuchte / hat besucht,to visit
+Verbformen,bezahlen,bezahlte / hat bezahlt,to pay
+Verbformen,vergessen,vergaß / hat vergessen,to forget
+Verbformen,verlieren,verlor / hat verloren,to lose
+Verbformen,helfen,half / hat geholfen,to help
+Verbformen,stehen,stand / hat gestanden,to stand
+Verbformen,liegen,lag / hat gelegen,to lie (down)
+Verbformen,sitzen,saß / hat gesessen,to sit
+Verbformen,ziehen,zog / hat gezogen,to pull
+Verbformen,schlafen,schlief / hat geschlafen,to sleep
+Verbformen,fliegen,flog / ist geflogen,to fly
+Verbformen,steigen,stieg / ist gestiegen,to climb
+Verbformen,scheinen,schien / hat geschienen,to shine/seem
+Verbformen,beginnen,begann / hat begonnen,to begin
+Verbformen,rennen,rannte / ist gerannt,to run (sprint)
+Verbformen,bringen,brachte / hat gebracht,to bring
+Verbformen,denken,dachte / hat gedacht,to think
+Verbformen,tun,tat / hat getan,to do
+Verbformen,passen,passte / hat gepasst,to fit
+Verbformen,reisen,reiste / ist gereist,to travel
+Verbformen,bitten,bat / hat gebeten,to request
+Verbformen,empfehlen,empfahl / hat empfohlen,to recommend
+Verbformen,halten,hielt / hat gehalten,to hold/stop
+Verbformen,lassen,ließ / hat gelassen,to let/leave
+Verbformen,reiten,ritt / ist geritten,to ride (horse)
+Verbformen,rufen,rief / hat gerufen,to call
+Verbformen,scheiden,schied / ist geschieden,to separate/divorce
+Verbformen,schließen,schloss / hat geschlossen,to close
+Verbformen,vergessen,vergaß / hat vergessen,to forget
+Verbformen,versprechen,versprach / hat versprochen,to promise
+Verbformen,aufstehen,stand auf / ist aufgestanden,to get up
+Verbformen,einkaufen,kaufte ein / hat eingekauft,to shop
+Verbformen,aussehen,sah aus / hat ausgesehen,to look/appear
+Verbformen,mitbringen,brachte mit / hat mitgebracht,to bring along
+Verbformen,fernsehen,sah fern / hat ferngesehen,to watch TV
+Verbformen,abfahren,fuhr ab / ist abgefahren,to depart
+Verbformen,anrufen,rief an / hat angerufen,to call (on the phone)
+Verbformen,aufhören,hörte auf / hat aufgehört,to stop
+Verbformen,zurückkommen,kam zurück / ist zurückgekommen,to come back
+Verbformen,vorbereiten,bereitete vor / hat vorbereitet,to prepare
+Körper Artikeln,Mund,Der Mund,the mouth
+Körper Artikeln,Auge,Das Auge,the eye
+Körper Artikeln,Ohr,Das Ohr,the ear
+Körper Artikeln,Nase,Die Nase,the nose
+Körper Artikeln,Kopf,Der Kopf,the head
+Körper Artikeln,Hals,Der Hals,the neck
+Körper Artikeln,Arm,Der Arm,the arm
+Körper Artikeln,Ellbogen,Der Ellbogen,the elbow
+Körper Artikeln,Hand,Die Hand,the hand
+Körper Artikeln,Finger,Der Finger,the finger
+Körper Artikeln,Bein,Das Bein,the leg
+Körper Artikeln,Knie,Das Knie,the knee
+Körper Artikeln,Fuß,Der Fuß,the foot
+Körper Artikeln,Rücken,Der Rücken,the back
+Körper Artikeln,Bauch,Der Bauch,the belly
+Körper Artikeln,Brust,Die Brust,the chest
+Körper Artikeln,Zahn,Der Zahn,the tooth
+Körper Artikeln,Zunge,Die Zunge,the tongue
+Körper Artikeln,Gesicht,Das Gesicht,the face
+Körper Artikeln,Haut,Die Haut,the skin
+Körper Artikeln,Haare,Die Haare,the hair
+Körper Artikeln,Herz,Das Herz,the heart
+Körper Artikeln,Lunge,Die Lunge,the lung
+Körper Artikeln,Leber,Die Leber,the liver
+Körper Artikeln,Muskel,Der Muskel,the muscle
+Körper Artikeln,Blut,Das Blut,the blood
+Körper Artikeln,Nagel,Der Nagel,the nail
+Körper Artikeln,Zehe,Die Zehe,the toe
+Körper Artikeln,Kinn,Das Kinn,the chin
+Körper Artikeln,Stirn,Die Stirn,the forehead
+Körper Artikeln,Wange,Die Wange,the cheek
+Körper Artikeln,Wirbelsäule,Die Wirbelsäule,the spine
+Körper Artikeln,Po,Der Po,the butt
+Körper Artikeln,Schulter,Die Schulter,the shoulder
+Körper Artikeln,Hüfte,Die Hüfte,the hip
+Zuhause Artikeln,Tisch,Der Tisch,the table
+Zuhause Artikeln,Stuhl,Der Stuhl,the chair
+Zuhause Artikeln,Fenster,Das Fenster,the window
+Zuhause Artikeln,Tür,Die Tür,the door
+Zuhause Artikeln,Lampe,Die Lampe,the lamp
+Zuhause Artikeln,Bett,Das Bett,the bed
+Zuhause Artikeln,Sofa,Das Sofa,the couch
+Zuhause Artikeln,Teppich,Der Teppich,the carpet
+Zuhause Artikeln,Spiegel,Der Spiegel,the mirror
+Zuhause Artikeln,Schrank,Der Schrank,the wardrobe
+Zuhause Artikeln,Kühlschrank,Der Kühlschrank,the fridge
+Zuhause Artikeln,Herd,Der Herd,the stove
+Zuhause Artikeln,Ofen,Der Ofen,the oven
+Zuhause Artikeln,Mikrowelle,Die Mikrowelle,the microwave
+Zuhause Artikeln,Waschmaschine,Die Waschmaschine,the washing machine
+Zuhause Artikeln,Badewanne,Die Badewanne,the bathtub
+Zuhause Artikeln,Dusche,Die Dusche,the shower
+Zuhause Artikeln,Spüle,Die Spüle,the sink
+Zuhause Artikeln,Vorhang,Der Vorhang,the curtain
+Zuhause Artikeln,Regal,Das Regal,the shelf
+Feiertage Artikeln,Weihnachten,Das Weihnachten,Christmas
+Feiertage Artikeln,Ostern,Das Ostern,Easter
+Feiertage Artikeln,Silvester,Das Silvester,New Year's Eve
+Feiertage Artikeln,Geburtstag,Der Geburtstag,birthday
+Feiertage Artikeln,Geschenk,Das Geschenk,the present
+Feiertage Artikeln,Feuerwerk,Das Feuerwerk,fireworks
+Feiertage Artikeln,Karneval,Der Karneval,carnival
+Feiertage Artikeln,Advent,Der Advent,Advent
+Feiertage Artikeln,Nikolaus,Der Nikolaus,Saint Nicholas
+Feiertage Artikeln,Fest,Das Fest,celebration
+Feiertage Artikeln,Familienfeier,Die Familienfeier,family celebration
+Feiertage Artikeln,Urlaub,Der Urlaub,vacation
+Feiertage Artikeln,Reise,Die Reise,trip
+Feiertage Artikeln,Hotel,Das Hotel,the hotel
+Feiertage Artikeln,Buchung,Die Buchung,the booking
+Feiertage Artikeln,Pass,Der Pass,the passport
+Feiertage Artikeln,Flughafen,Der Flughafen,the airport
+Feiertage Artikeln,Koffer,Der Koffer,the suitcase
+Feiertage Artikeln,Zugticket,Das Zugticket,the train ticket
+Feiertage Artikeln,Souvenir,Das Souvenir,the souvenir
+Essen Artikeln,Apfel,Der Apfel,the apple
+Essen Artikeln,Brot,Das Brot,the bread
+Essen Artikeln,Käse,Der Käse,the cheese
+Essen Artikeln,Milch,Die Milch,the milk
+Essen Artikeln,Wurst,Die Wurst,the sausage
+Essen Artikeln,Butter,Die Butter,the butter
+Essen Artikeln,Ei,Das Ei,the egg
+Essen Artikeln,Fisch,Der Fisch,the fish
+Essen Artikeln,Fleisch,Das Fleisch,the meat
+Essen Artikeln,Nudeln,Die Nudeln,the pasta
+Essen Artikeln,Reis,Der Reis,the rice
+Essen Artikeln,Gemüse,Das Gemüse,the vegetables
+Essen Artikeln,Obst,Das Obst,the fruit
+Essen Artikeln,Salat,Der Salat,the salad
+Essen Artikeln,Wasser,Das Wasser,the water
+Essen Artikeln,Saft,Der Saft,the juice
+Essen Artikeln,Zucker,Der Zucker,the sugar
+Essen Artikeln,Salz,Das Salz,the salt
+Essen Artikeln,Pfeffer,Der Pfeffer,the pepper
+Essen Artikeln,Messer,Das Messer,the knife
+Gesundheit Artikeln,Krankheit,Die Krankheit,the illness
+Gesundheit Artikeln,Tablette,Die Tablette,the pill
+Gesundheit Artikeln,Fieber,Das Fieber,the fever
+Gesundheit Artikeln,Rezept,Das Rezept,the prescription
+Gesundheit Artikeln,Untersuchung,Die Untersuchung,the examination
+Gesundheit Artikeln,Arzt,Der Arzt,the doctor
+Gesundheit Artikeln,Ärztin,Die Ärztin,the (female) doctor
+Gesundheit Artikeln,Krankenhaus,Das Krankenhaus,the hospital
+Gesundheit Artikeln,Spritze,Die Spritze,the injection
+Gesundheit Artikeln,Wunde,Die Wunde,the wound
+Gesundheit Artikeln,Verband,Der Verband,the bandage
+Gesundheit Artikeln,Salbe,Die Salbe,the ointment
+Gesundheit Artikeln,Operation,Die Operation,the surgery
+Gesundheit Artikeln,Notaufnahme,Die Notaufnahme,the emergency room
+Gesundheit Artikeln,Krücke,Die Krücke,the crutch
+Gesundheit Artikeln,Therapie,Die Therapie,the therapy
+Gesundheit Artikeln,Medikament,Das Medikament,the medicine
+Gesundheit Artikeln,Zahnarzt,Der Zahnarzt,the dentist
+Gesundheit Artikeln,Blutdruck,Der Blutdruck,the blood pressure
+Gesundheit Artikeln,Symptom,Das Symptom,the symptom
+Umwelt Artikeln,Müll,Der Müll,the garbage
+Umwelt Artikeln,Recycling,Das Recycling,recycling
+Umwelt Artikeln,Wald,Der Wald,the forest
+Umwelt Artikeln,Luft,Die Luft,the air
+Umwelt Artikeln,Plastik,Das Plastik,the plastic
+Umwelt Artikeln,Wasser,Das Wasser,the water
+Umwelt Artikeln,Strom,Der Strom,electricity
+Umwelt Artikeln,Energie,Die Energie,energy
+Umwelt Artikeln,Sonne,Die Sonne,the sun
+Umwelt Artikeln,Wind,Der Wind,the wind
+Umwelt Artikeln,Regen,Der Regen,the rain
+Umwelt Artikeln,Treibhausgas,Das Treibhausgas,greenhouse gas
+Umwelt Artikeln,Klimawandel,Der Klimawandel,climate change
+Umwelt Artikeln,Erwärmung,Die Erwärmung,warming
+Umwelt Artikeln,Naturschutz,Der Naturschutz,nature conservation
+Umwelt Artikeln,Verschmutzung,Die Verschmutzung,pollution
+Umwelt Artikeln,Abfall,Der Abfall,waste
+Umwelt Artikeln,Ozean,Der Ozean,the ocean
+Umwelt Artikeln,Biomüll,Der Biomüll,organic waste
+Umwelt Artikeln,Solarenergie,Die Solarenergie,solar energy
+Verb mit Präposition,warten auf,Ich warte auf dich.,to wait for
+Verb mit Präposition,denken an,Ich denke an dich.,to think of
+Verb mit Präposition,sich erinnern an,Ich erinnere mich an ihn.,to remember
+Verb mit Präposition,sprechen mit,Ich spreche mit dem Lehrer.,to speak with
+Verb mit Präposition,sich freuen über,Ich freue mich über das Geschenk.,to be happy about
+Verb mit Präposition,sich freuen auf,Ich freue mich auf den Urlaub.,to look forward to
+Verb mit Präposition,sich interessieren für,Ich interessiere mich für Musik.,to be interested in
+Verb mit Präposition,bitten um,Ich bitte um Hilfe.,to ask for
+Verb mit Präposition,sich bedanken für,Ich bedanke mich für die Einladung.,to thank for
+Verb mit Präposition,teilnehmen an,Ich nehme an dem Kurs teil.,to participate in
+Verb mit Präposition,abhängen von,Es hängt vom Wetter ab.,to depend on
+Verb mit Präposition,sprechen über,Wir sprechen über Politik.,to talk about
+Verb mit Präposition,lachen über,Ich lache über den Witz.,to laugh about
+Verb mit Präposition,sich kümmern um,Ich kümmere mich um das Kind.,to take care of
+Verb mit Präposition,sich bewerben um,Ich bewerbe mich um die Stelle.,to apply for
+Verb mit Präposition,sich verlieben in,Er hat sich in sie verliebt.,to fall in love with
+Verb mit Präposition,arbeiten an,Er arbeitet an einem Projekt.,to work on
+Verb mit Präposition,fragen nach,Ich frage nach dem Weg.,to ask about
+Verb mit Präposition,sich treffen mit,Ich treffe mich mit Freunden.,to meet with
+Verb mit Präposition,diskutieren über,Wir diskutieren über das Problem.,to discuss about
+Präposition Deklination,mit,mit (dativ),with
+Präposition Deklination,bei,bei (dativ),at
+Präposition Deklination,nach,nach (dativ),after/to
+Präposition Deklination,seit,seit (dativ),since
+Präposition Deklination,von,von (dativ),from/of
+Präposition Deklination,zu,zu (dativ),to
+Präposition Deklination,aus,aus (dativ),out of/from
+Präposition Deklination,gegenüber,gegenüber (dativ),opposite
+Präposition Deklination,für,für (akkusativ),for
+Präposition Deklination,durch,durch (akkusativ),through
+Präposition Deklination,gegen,gegen (akkusativ),against
+Präposition Deklination,ohne,ohne (akkusativ),without
+Präposition Deklination,um,um (akkusativ),around
+Präposition Deklination,an,an (wechsel),at/on
+Präposition Deklination,auf,auf (wechsel),on
+Präposition Deklination,hinter,hinter (wechsel),behind
+Präposition Deklination,in,in (wechsel),in
+Präposition Deklination,neben,neben (wechsel),next to
+Präposition Deklination,über,über (wechsel),over
+Präposition Deklination,unter,unter (wechsel),under
+Arbeit Artikeln,Bewerbung,Die Bewerbung,the application
+Arbeit Artikeln,Lebenslauf,Der Lebenslauf,the CV
+Arbeit Artikeln,Vorstellungsgespräch,Das Vorstellungsgespräch,the interview
+Arbeit Artikeln,Arbeitsvertrag,Der Arbeitsvertrag,the work contract
+Arbeit Artikeln,Kollege,Der Kollege,the colleague
+Arbeit Artikeln,Chef,Der Chef,the boss
+Arbeit Artikeln,Gehalt,Das Gehalt,the salary
+Arbeit Artikeln,Berufserfahrung,Die Berufserfahrung,the work experience
+Arbeit Artikeln,Stellenanzeige,Die Stellenanzeige,the job ad
+Arbeit Artikeln,Vollzeit,Die Vollzeit,full time
+Arbeit Artikeln,Teilzeit,Die Teilzeit,part time
+Arbeit Artikeln,Kündigung,Die Kündigung,the resignation
+Arbeit Artikeln,Aufgabe,Die Aufgabe,the task
+Arbeit Artikeln,Fortbildung,Die Fortbildung,the further training
+Arbeit Artikeln,Beförderung,Die Beförderung,the promotion
+Arbeit Artikeln,Abteilung,Die Abteilung,the department
+Arbeit Artikeln,Arbeitszeit,Die Arbeitszeit,the working hours
+Arbeit Artikeln,Homeoffice,Das Homeoffice,home office
+Arbeit Artikeln,Urlaubstag,Der Urlaubstag,the day off
+Arbeit Artikeln,Probezeit,Die Probezeit,probation period
+Wohnen Artikeln,Wohnung,Die Wohnung,the apartment
+Wohnen Artikeln,Miete,Die Miete,the rent
+Wohnen Artikeln,Vermieter,Der Vermieter,the landlord
+Wohnen Artikeln,Untermiete,Die Untermiete,the sublet
+Wohnen Artikeln,Kaution,Die Kaution,the deposit
+Wohnen Artikeln,Hausordnung,Die Hausordnung,house rules
+Wohnen Artikeln,Heizung,Die Heizung,the heating
+Wohnen Artikeln,Nebenkosten,Die Nebenkosten,additional costs
+Wohnen Artikeln,Stromrechnung,Die Stromrechnung,electricity bill
+Wohnen Artikeln,Internetanschluss,Der Internetanschluss,internet connection
+Wohnen Artikeln,WG,Die WG,shared flat
+Wohnen Artikeln,Nachbar,Der Nachbar,the neighbor
+Wohnen Artikeln,Wohnzimmer,Das Wohnzimmer,living room
+Wohnen Artikeln,Schlafzimmer,Das Schlafzimmer,bedroom
+Wohnen Artikeln,Küche,Die Küche,kitchen
+Wohnen Artikeln,Badezimmer,Das Badezimmer,bathroom
+Wohnen Artikeln,Möbel,Die Möbel,furniture
+Wohnen Artikeln,Umzug,Der Umzug,the move
+Wohnen Artikeln,Wohnungsanzeige,Die Wohnungsanzeige,apartment ad
+Wohnen Artikeln,Makler,Der Makler,real estate agent
+Schule & Bildung,Schule,Die Schule,the school
+Schule & Bildung,Lehrer,Der Lehrer,the teacher
+Schule & Bildung,Schüler,Der Schüler,the student
+Schule & Bildung,Unterricht,Der Unterricht,the lesson
+Schule & Bildung,Hausaufgabe,Die Hausaufgabe,homework
+Schule & Bildung,Note,Die Note,the grade
+Schule & Bildung,Zeugnis,Das Zeugnis,the report card
+Schule & Bildung,Klasse,Die Klasse,the class
+Schule & Bildung,Pause,Die Pause,break
+Schule & Bildung,Prüfung,Die Prüfung,the exam
+Schule & Bildung,Abschluss,Der Abschluss,graduation
+Schule & Bildung,Studium,Das Studium,studies
+Schule & Bildung,Universität,Die Universität,university
+Schule & Bildung,Fach,Das Fach,subject
+Schule & Bildung,Bildungssystem,Das Bildungssystem,education system
+Schule & Bildung,Schulpflicht,Die Schulpflicht,mandatory education
+Schule & Bildung,Lernen,Das Lernen,learning
+Schule & Bildung,Tafel,Die Tafel,blackboard
+Schule & Bildung,Stift,Der Stift,pen
+Schule & Bildung,Buch,Das Buch,book
+Redewendungen,ins kalte Wasser springen,Er musste ins kalte Wasser springen.,to be thrown in at the deep end
+Redewendungen,alles unter einen Hut bringen,"Ich versuche, Arbeit und Familie unter einen Hut zu bringen.",to juggle everything
+Redewendungen,auf Wolke sieben sein,"Seit er sie kennt, ist er auf Wolke sieben.",to be on cloud nine
+Redewendungen,Schmetterlinge im Bauch haben,Sie hat Schmetterlinge im Bauch.,to have butterflies in the stomach
+Redewendungen,etwas durch die Blume sagen,Er sagt es lieber durch die Blume.,to say something indirectly
+Redewendungen,den Nagel auf den Kopf treffen,Du hast den Nagel auf den Kopf getroffen.,to hit the nail on the head
+Redewendungen,kein Blatt vor den Mund nehmen,Sie nimmt kein Blatt vor den Mund.,to speak plainly
+Redewendungen,Tomaten auf den Augen haben,Hast du Tomaten auf den Augen?,to be oblivious
+Redewendungen,zwei Fliegen mit einer Klappe schlagen,So schlagen wir zwei Fliegen mit einer Klappe.,to kill two birds with one stone
+Redewendungen,etwas auf die lange Bank schieben,Er schiebt alles auf die lange Bank.,to procrastinate
+Konjunktiv II,wären,"Wenn ich du wäre, würde ich mehr lernen.","If I were you, I would study more."
+Konjunktiv II,hätten,"Wenn ich mehr Zeit hätte, würde ich reisen.","If I had more time, I would travel."
+Konjunktiv II,könnte,"Ich könnte dir helfen, wenn du willst.",I could help you if you want.
+Konjunktiv II,würde,Ich würde gern ins Kino gehen.,I would like to go to the cinema.
+Konjunktiv II,müsste,Ich müsste früher aufstehen.,I would have to get up earlier.
+Konjunktiv II,sollte,Du solltest mehr schlafen.,You should sleep more.
+Konjunktiv II,dürfte,Er dürfte das nicht machen.,He would not be allowed to do that.
+Konjunktiv II,möchte,Ich möchte ein Eis.,I would like an ice cream.
+Konjunktiv II,wüsste,Ich wüsste gerne mehr darüber.,I would like to know more about it.
+Konjunktiv II,hätte ... machen sollen,Ich hätte das früher machen sollen.,I should have done that earlier.
+Modalverben,können,Ich kann Deutsch sprechen.,I can speak German.
+Modalverben,müssen,Du musst heute arbeiten.,You must work today.
+Modalverben,dürfen,Wir dürfen hier nicht rauchen.,We are not allowed to smoke here.
+Modalverben,sollen,Er soll seine Hausaufgaben machen.,He should do his homework.
+Modalverben,wollen,Ich will ins Kino gehen.,I want to go to the cinema.
+Modalverben,mögen,Sie mag Schokolade.,She likes chocolate.
+Modalverben,möchten,Ich möchte ein Glas Wasser.,I would like a glass of water.
+Modalverben,nicht dürfen,Man darf hier nicht parken.,One is not allowed to park here.
+Modalverben,müssen + Perfekt,Ich habe arbeiten müssen.,I had to work.
+Modalverben,können + Perfekt,Ich habe das nicht machen können.,I couldn’t do that.
+Beratungsgespräch,Termin vereinbaren,Ich möchte einen Termin vereinbaren.,to schedule an appointment
+Beratungsgespräch,Beratung,Ich brauche eine Beratung.,consultation
+Beratungsgespräch,Fragen stellen,Darf ich Ihnen ein paar Fragen stellen?,to ask questions
+Beratungsgespräch,Unterlagen,Haben Sie alle Unterlagen dabei?,documents
+Beratungsgespräch,Vertrag,Der Vertrag ist befristet.,contract
+Beratungsgespräch,Angebot,Wir machen Ihnen ein Angebot.,offer
+Beratungsgespräch,Empfehlung,Unsere Empfehlung ist dieses Produkt.,recommendation
+Beratungsgespräch,Ziel,Was ist Ihr Ziel?,goal
+Beratungsgespräch,Bedarf,Welchen Bedarf haben Sie?,needs
+Beratungsgespräch,Lösung,Wir finden eine Lösung.,solution
+Behördengänge,Anmeldung,Ich muss meine Anmeldung machen.,registration
+Behördengänge,Abmeldung,Die Abmeldung erfolgt schriftlich.,deregistration
+Behördengänge,Personalausweis,Ich brauche einen neuen Personalausweis.,ID card
+Behördengänge,Reisepass,Mein Reisepass ist abgelaufen.,passport
+Behördengänge,Termin beim Amt,Ich habe einen Termin beim Amt.,appointment at the office
+Behördengänge,Meldebescheinigung,Ich brauche eine Meldebescheinigung.,residence certificate
+Behördengänge,Wohnsitz ummelden,Ich muss meinen Wohnsitz ummelden.,to register a new address
+Behördengänge,Steuer-ID,Wo finde ich meine Steuer-ID?,tax ID
+Behördengänge,Bürgeramt,Ich gehe zum Bürgeramt.,citizens' office
+Behördengänge,Wartezeit,Die Wartezeit ist lang.,waiting time

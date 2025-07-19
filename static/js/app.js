@@ -19,8 +19,10 @@ const scoreDisplay = document.getElementById('score');
 const knowBtn = document.getElementById('knowBtn');
 const dontKnowBtn = document.getElementById('dontKnowBtn');
 const nextBtn = document.getElementById('nextBtn');
+const translateBtn = document.getElementById('translateBtn');
 const endBtn = document.getElementById('endBtn');
 const restartBtn = document.getElementById('restartBtn');
+const englishText = document.getElementById('englishText');
 
 async function loadCategories() {
     try {
@@ -105,12 +107,15 @@ function showCard() {
     const card = cards[currentCardIndex];
     frontText.textContent = card.front;
     backText.textContent = card.back;
+    englishText.textContent = card.english || '';
+    englishText.classList.add('hidden');
     
     flashcard.classList.remove('flipped');
     isCardFlipped = false;
     
     knowBtn.classList.remove('hidden');
     dontKnowBtn.classList.remove('hidden');
+    translateBtn.classList.add('hidden');
     nextBtn.classList.add('hidden');
     
     updateProgress();
@@ -135,6 +140,12 @@ function handleAnswer(knew) {
     
     knowBtn.classList.add('hidden');
     dontKnowBtn.classList.add('hidden');
+    
+    const card = cards[currentCardIndex];
+    if (card.english) {
+        translateBtn.classList.remove('hidden');
+    }
+    
     nextBtn.classList.remove('hidden');
 }
 
@@ -171,6 +182,10 @@ dontKnowBtn.addEventListener('click', () => handleAnswer(false));
 nextBtn.addEventListener('click', nextCard);
 endBtn.addEventListener('click', endGame);
 restartBtn.addEventListener('click', restart);
+translateBtn.addEventListener('click', () => {
+    englishText.classList.toggle('hidden');
+    translateBtn.textContent = englishText.classList.contains('hidden') ? 'Show Translation' : 'Hide Translation';
+});
 
 document.addEventListener('keydown', (e) => {
     if (gameArea.classList.contains('hidden')) return;
