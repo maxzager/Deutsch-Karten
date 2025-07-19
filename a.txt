@@ -1,0 +1,155 @@
+starting build "3bad638b-8d73-4c4f-9bdd-e7cf761c424d"
+FETCHSOURCE
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+Initialized empty Git repository in /workspace/.git/
+From https://github.com/maxzager/Deutsch-Karten
+ * branch            ae6a619d7dca6e7ac295c8e941ee5e8e239a2229 -> FETCH_HEAD
+HEAD is now at ae6a619 bar position nad translate button
+GitCommit:
+ae6a619d7dca6e7ac295c8e941ee5e8e239a2229
+BUILD
+Starting Step #0 - "Build"
+Already have image (with digest): gcr.io/cloud-builders/docker
+Sending build context to Docker daemon  52.74kB
+Step 1/7 : FROM python:3.12-slim
+3.12-slim: Pulling from library/python
+3da95a905ed5: Already exists
+a28b0ad00fe5: Pulling fs layer
+009ddaf357d4: Pulling fs layer
+3c3b4b852f07: Pulling fs layer
+3c3b4b852f07: Verifying Checksum
+3c3b4b852f07: Download complete
+a28b0ad00fe5: Verifying Checksum
+a28b0ad00fe5: Download complete
+009ddaf357d4: Verifying Checksum
+009ddaf357d4: Download complete
+a28b0ad00fe5: Pull complete
+009ddaf357d4: Pull complete
+3c3b4b852f07: Pull complete
+Digest: sha256:4600f71648e110b005bf7bca92dbb335e549e6b27f2e83fceee5e11b3e1a4d01
+Status: Downloaded newer image for python:3.12-slim
+ ---> 982d21e6ab15
+Step 2/7 : WORKDIR /app
+ ---> Running in 1e3f2fd66149
+Removing intermediate container 1e3f2fd66149
+ ---> 19459737fd78
+Step 3/7 : COPY requirements.txt .
+ ---> 97983dee893b
+Step 4/7 : RUN pip install --no-cache-dir -r requirements.txt
+ ---> Running in 37c5bbb34856
+Collecting Flask==3.0.0 (from -r requirements.txt (line 1))
+  Downloading flask-3.0.0-py3-none-any.whl.metadata (3.6 kB)
+Collecting python-dotenv==1.0.0 (from -r requirements.txt (line 2))
+  Downloading python_dotenv-1.0.0-py3-none-any.whl.metadata (21 kB)
+Collecting gunicorn==21.2.0 (from -r requirements.txt (line 3))
+  Downloading gunicorn-21.2.0-py3-none-any.whl.metadata (4.1 kB)
+Collecting Werkzeug>=3.0.0 (from Flask==3.0.0->-r requirements.txt (line 1))
+  Downloading werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)
+Collecting Jinja2>=3.1.2 (from Flask==3.0.0->-r requirements.txt (line 1))
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting itsdangerous>=2.1.2 (from Flask==3.0.0->-r requirements.txt (line 1))
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting click>=8.1.3 (from Flask==3.0.0->-r requirements.txt (line 1))
+  Downloading click-8.2.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting blinker>=1.6.2 (from Flask==3.0.0->-r requirements.txt (line 1))
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting packaging (from gunicorn==21.2.0->-r requirements.txt (line 3))
+  Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting MarkupSafe>=2.0 (from Jinja2>=3.1.2->Flask==3.0.0->-r requirements.txt (line 1))
+  Downloading MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+Downloading flask-3.0.0-py3-none-any.whl (99 kB)
+Downloading python_dotenv-1.0.0-py3-none-any.whl (19 kB)
+Downloading gunicorn-21.2.0-py3-none-any.whl (80 kB)
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading click-8.2.1-py3-none-any.whl (102 kB)
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+Downloading packaging-25.0-py3-none-any.whl (66 kB)
+Downloading MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB)
+Installing collected packages: python-dotenv, packaging, MarkupSafe, itsdangerous, click, blinker, Werkzeug, Jinja2, gunicorn, Flask
+Successfully installed Flask-3.0.0 Jinja2-3.1.6 MarkupSafe-3.0.2 Werkzeug-3.1.3 blinker-1.9.0 click-8.2.1 gunicorn-21.2.0 itsdangerous-2.2.0 packaging-25.0 python-dotenv-1.0.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+[notice] A new release of pip is available: 25.0.1 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+Removing intermediate container 37c5bbb34856
+ ---> 0b8bee494ebb
+Step 5/7 : COPY . .
+ ---> 4124ed37f9ba
+Step 6/7 : EXPOSE 8080
+ ---> Running in 746356d77714
+Removing intermediate container 746356d77714
+ ---> 159b724ca8b8
+Step 7/7 : CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
+ ---> Running in d819f6163d6e
+Removing intermediate container d819f6163d6e
+ ---> 8d147fb27456
+Successfully built 8d147fb27456
+Successfully tagged europe-west1-docker.pkg.dev/natural-venture-225014/cloud-run-source-deploy/deutsch-karten/deutsch-karten:ae6a619d7dca6e7ac295c8e941ee5e8e239a2229
+Finished Step #0 - "Build"
+Starting Step #1 - "Push"
+Already have image (with digest): gcr.io/cloud-builders/docker
+The push refers to repository [europe-west1-docker.pkg.dev/natural-venture-225014/cloud-run-source-deploy/deutsch-karten/deutsch-karten]
+86e5586fed6f: Preparing
+cff40d6096d5: Preparing
+c6d33d09b356: Preparing
+d9bceb7e7e78: Preparing
+f3821a5f6014: Preparing
+02d89fea34bd: Preparing
+095c688b01c2: Preparing
+1bb35e8b4de1: Preparing
+02d89fea34bd: Waiting
+095c688b01c2: Waiting
+1bb35e8b4de1: Waiting
+f3821a5f6014: Layer already exists
+02d89fea34bd: Layer already exists
+095c688b01c2: Layer already exists
+d9bceb7e7e78: Pushed
+cff40d6096d5: Pushed
+c6d33d09b356: Pushed
+86e5586fed6f: Pushed
+1bb35e8b4de1: Pushed
+ae6a619d7dca6e7ac295c8e941ee5e8e239a2229: digest: sha256:d1d8a03239d8efe85e8d8276797515e35b6577bd587809b69b928d9c95342c37 size: 1993
+Finished Step #1 - "Push"
+Starting Step #2 - "Deploy"
+Pulling image: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+slim: Pulling from google.com/cloudsdktool/cloud-sdk
+5c9256e0f3ca: Already exists
+c54dac92af92: Pulling fs layer
+ca53c324c9d7: Pulling fs layer
+c76e7d8d802f: Pulling fs layer
+d0df2543a933: Pulling fs layer
+d0df2543a933: Waiting
+ca53c324c9d7: Verifying Checksum
+ca53c324c9d7: Download complete
+d0df2543a933: Verifying Checksum
+d0df2543a933: Download complete
+c54dac92af92: Verifying Checksum
+c54dac92af92: Download complete
+c54dac92af92: Pull complete
+ca53c324c9d7: Pull complete
+c76e7d8d802f: Verifying Checksum
+c76e7d8d802f: Download complete
+c76e7d8d802f: Pull complete
+d0df2543a933: Pull complete
+Digest: sha256:9aff409d27a0d1a8e9ae0b52af7b3f58fca035d8e452652841e64ebcf6db4aee
+Status: Downloaded newer image for gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+Deploying...
+Creating Revision...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................failed
+Deployment failed
+ERROR: (gcloud.run.services.update) Revision 'deutsch-karten-00006-x8d' is not ready and cannot serve traffic. The user-provided container failed to start and listen on the port defined provided by the PORT=8080 environment variable within the allocated timeout. This can happen when the container port is misconfigured or if the timeout is too short. The health check timeout can be extended. Logs for this revision might contain more information.
+Logs URL: https://console.cloud.google.com/logs/viewer?project=natural-venture-225014&resource=cloud_run_revision/service_name/deutsch-karten/revision_name/deutsch-karten-00006-x8d&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22deutsch-karten%22%0Aresource.labels.revision_name%3D%22deutsch-karten-00006-x8d%22 
+For more troubleshooting guidance, see https://cloud.google.com/run/docs/troubleshooting#container-failed-to-start
+Finished Step #2 - "Deploy"
+ERROR
+ERROR: build step 2 "gcr.io/google.com/cloudsdktool/cloud-sdk:slim" failed: step exited with non-zero status: 1

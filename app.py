@@ -61,4 +61,4 @@ def get_random_cards_by_category(category, count):
     return jsonify(random_cards)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    app.run(debug=True, host='0.0.0.0', port=8080)
