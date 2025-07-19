@@ -115,7 +115,15 @@ function showCard() {
     
     knowBtn.classList.remove('hidden');
     dontKnowBtn.classList.remove('hidden');
-    translateBtn.classList.add('hidden');
+    
+    // Show translate button if English translation exists
+    if (card.english) {
+        translateBtn.classList.remove('hidden');
+        translateBtn.textContent = 'Show Translation';
+    } else {
+        translateBtn.classList.add('hidden');
+    }
+    
     nextBtn.classList.add('hidden');
     
     updateProgress();
@@ -141,8 +149,9 @@ function handleAnswer(knew) {
     knowBtn.classList.add('hidden');
     dontKnowBtn.classList.add('hidden');
     
+    // Keep translate button visible if it was already shown
     const card = cards[currentCardIndex];
-    if (card.english) {
+    if (card.english && translateBtn.classList.contains('hidden')) {
         translateBtn.classList.remove('hidden');
     }
     
