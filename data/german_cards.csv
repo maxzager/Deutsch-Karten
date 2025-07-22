@@ -206,23 +206,23 @@ Umwelt Artikeln,Biomüll,Der Biomüll,organic waste
 Umwelt Artikeln,Solarenergie,Die Solarenergie,solar energy
 Verb mit Präposition,warten,(warten auf + dat) Ich warte auf dich.,to wait for
 Verb mit Präposition,denken,(denken an + dat) Ich denke an dich.,to think of
-Verb mit Präposition,sich,(sich erinnern an + dat) Ich erinnere mich an ihn.,to remember
+Verb mit Präposition,erinnern,(sich erinnern an + dat) Ich erinnere mich an ihn.,to remember
 Verb mit Präposition,sprechen,(sprechen mit + dat) Ich spreche mit dem Lehrer.,to speak with
-Verb mit Präposition,sich,(sich freuen über + dat) Ich freue mich über das Geschenk.,to be happy about
-Verb mit Präposition,sich,(sich freuen auf + dat) Ich freue mich auf den Urlaub.,to look forward to
-Verb mit Präposition,sich,(sich interessieren für + dat) Ich interessiere mich für Musik.,to be interested in
+Verb mit Präposition,freuen,(sich freuen über + dat) Ich freue mich über das Geschenk.,to be happy about
+Verb mit Präposition,freuen,(sich freuen auf + dat) Ich freue mich auf den Urlaub.,to look forward to
+Verb mit Präposition,interessieren,(sich interessieren für + dat) Ich interessiere mich für Musik.,to be interested in
 Verb mit Präposition,bitten,(bitten um + dat) Ich bitte um Hilfe.,to ask for
-Verb mit Präposition,sich,(sich bedanken für + dat) Ich bedanke mich für die Einladung.,to thank for
+Verb mit Präposition,bedanken,(sich bedanken für + dat) Ich bedanke mich für die Einladung.,to thank for
 Verb mit Präposition,teilnehmen,(teilnehmen an + dat) Ich nehme an dem Kurs teil.,to participate in
 Verb mit Präposition,abhängen,(abhängen von + dat) Es hängt vom Wetter ab.,to depend on
 Verb mit Präposition,sprechen,(sprechen über + dat) Wir sprechen über Politik.,to talk about
 Verb mit Präposition,lachen,(lachen über + dat) Ich lache über den Witz.,to laugh about
-Verb mit Präposition,sich,(sich kümmern um + dat) Ich kümmere mich um das Kind.,to take care of
-Verb mit Präposition,sich,(sich bewerben um + dat) Ich bewerbe mich um die Stelle.,to apply for
-Verb mit Präposition,sich,(sich verlieben in + dat) Er hat sich in sie verliebt.,to fall in love with
+Verb mit Präposition,kümmern,(sich kümmern um + dat) Ich kümmere mich um das Kind.,to take care of
+Verb mit Präposition,bewerben,(sich bewerben um + dat) Ich bewerbe mich um die Stelle.,to apply for
+Verb mit Präposition,verlieben,(sich verlieben in + dat) Er hat sich in sie verliebt.,to fall in love with
 Verb mit Präposition,arbeiten,(arbeiten an + dat) Er arbeitet an einem Projekt.,to work on
 Verb mit Präposition,fragen,(fragen nach + dat) Ich frage nach dem Weg.,to ask about
-Verb mit Präposition,sich,(sich treffen mit + dat) Ich treffe mich mit Freunden.,to meet with
+Verb mit Präposition,treffen,(sich treffen mit + dat) Ich treffe mich mit Freunden.,to meet with
 Verb mit Präposition,diskutieren,(diskutieren über + dat) Wir diskutieren über das Problem.,to discuss about
 Präposition Deklination,mit,mit (dativ),with
 Präposition Deklination,bei,bei (dativ),at
@@ -324,33 +324,4 @@ Konjunktiv II,dürfte,Er dürfte das nicht machen.,He would not be allowed to do
 Konjunktiv II,möchte,Ich möchte ein Eis.,I would like an ice cream.
 Konjunktiv II,wüsste,Ich wüsste gerne mehr darüber.,I would like to know more about it.
 Konjunktiv II,hätte ... machen sollen,Ich hätte das früher machen sollen.,I should have done that earlier.
-Modalverben,können,Ich kann Deutsch sprechen.,I can speak German.
-Modalverben,müssen,Du musst heute arbeiten.,You must work today.
-Modalverben,dürfen,Wir dürfen hier nicht rauchen.,We are not allowed to smoke here.
-Modalverben,sollen,Er soll seine Hausaufgaben machen.,He should do his homework.
-Modalverben,wollen,Ich will ins Kino gehen.,I want to go to the cinema.
-Modalverben,mögen,Sie mag Schokolade.,She likes chocolate.
-Modalverben,möchten,Ich möchte ein Glas Wasser.,I would like a glass of water.
-Modalverben,nicht dürfen,Man darf hier nicht parken.,One is not allowed to park here.
-Modalverben,müssen + Perfekt,Ich habe arbeiten müssen.,I had to work.
-Modalverben,können + Perfekt,Ich habe das nicht machen können.,I couldn’t do that.
-Beratungsgespräch,Termin vereinbaren,Ich möchte einen Termin vereinbaren.,to schedule an appointment
-Beratungsgespräch,Beratung,Ich brauche eine Beratung.,consultation
-Beratungsgespräch,Fragen stellen,Darf ich Ihnen ein paar Fragen stellen?,to ask questions
-Beratungsgespräch,Unterlagen,Haben Sie alle Unterlagen dabei?,documents
-Beratungsgespräch,Vertrag,Der Vertrag ist befristet.,contract
-Beratungsgespräch,Angebot,Wir machen Ihnen ein Angebot.,offer
-Beratungsgespräch,Empfehlung,Unsere Empfehlung ist dieses Produkt.,recommendation
-Beratungsgespräch,Ziel,Was ist Ihr Ziel?,goal
-Beratungsgespräch,Bedarf,Welchen Bedarf haben Sie?,needs
-Beratungsgespräch,Lösung,Wir finden eine Lösung.,solution
-Behördengänge,Anmeldung,Ich muss meine Anmeldung machen.,registration
-Behördengänge,Abmeldung,Die Abmeldung erfolgt schriftlich.,deregistration
-Behördengänge,Personalausweis,Ich brauche einen neuen Personalausweis.,ID card
-Behördengänge,Reisepass,Mein Reisepass ist abgelaufen.,passport
-Behördengänge,Termin beim Amt,Ich habe einen Termin beim Amt.,appointment at the office
-Behördengänge,Meldebescheinigung,Ich brauche eine Meldebescheinigung.,residence certificate
-Behördengänge,Wohnsitz ummelden,Ich muss meinen Wohnsitz ummelden.,to register a new address
-Behördengänge,Steuer-ID,Wo finde ich meine Steuer-ID?,tax ID
-Behördengänge,Bürgeramt,Ich gehe zum Bürgeramt.,citizens' office
-Behördengänge,Wartezeit,Die Wartezeit ist lang.,waiting time
+
